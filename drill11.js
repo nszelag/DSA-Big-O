@@ -39,6 +39,8 @@ function towersOfHanoi(numDisks, start, transformer, end) {
     3 disks: 7 moves
     4 disks: 15 moves
     5 disks: 31 moves
+
+    O(2^n - 1)  ---> O(2^n)
 */
 
 towersOfHanoi(5, 'A', 'B', 'C')
